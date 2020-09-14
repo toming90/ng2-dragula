@@ -3,7 +3,7 @@ import { DragulaDirective } from './dragula.directive';
 import { DragulaService } from './dragula.service';
 
 @NgModule({
-  exports: [DragulaDirective, DragulaModule],
+  exports: [DragulaDirective],
   declarations: [DragulaDirective],
 })
 export class DragulaModule {
